@@ -1,0 +1,631 @@
+html,body{
+    width: 100%;
+    display: contents;
+    height: 100%;
+}
+
+body{
+    overflow: hidden;
+    background-color: #ececec;
+}
+#big{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+nav{
+    display: contents;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    height: 80px;
+    /* background-color: #dadada; */
+    margin: 0 auto;
+}
+
+nav img{  
+    position: absolute;
+    width: 110px;
+    width: 210px;
+    height: 50px;
+   padding-top: 29px;
+    margin-left: 50px;
+    
+    
+
+}
+
+nav #links{
+     position: relative;
+    padding-left: 90px;
+    align-items: center; 
+
+    
+}
+
+nav #links a{ display: inline-flex;
+    font-family: "red hat text" ;
+    font-size: 11px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+    letter-spacing: 4px;
+    padding-top: 43px;
+    padding-left: 50px;
+}
+
+
+nav #links a:nth-child(1){ 
+    color: rgb(0, 0, 0); 
+    font-weight: 700;
+    background-color: none
+    ;
+}
+.navbgimage{
+    position: absolute;
+    z-index: -1;
+    height: 190px;
+    width: 400px;
+}
+.Signin{ position: absolute;
+    padding: 50px;
+    float: right;
+    font-family: "red hat text" ;
+    position: relative;
+     padding-right: 50px; 
+     background-color: #fff;
+    
+
+}
+nav #links button:nth-child(1){ 
+    border-style: none;
+background-color: #fff;}
+nav #links button:nth-child(2){ 
+    border-radius: 5px;
+    border: 2px solid  #3CBD96;
+    background:#3CBD96;
+    color: rgb(255, 255, 255);
+}
+#sections{
+    
+    
+    width: 100%;
+    height: calc(100% - 80px);
+}
+
+
+.cccc{ 
+    padding-top: 300px;
+    margin-left: 600px;;
+    position: absolute; 
+    z-index: -1;
+}
+.eeee{ 
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 600px;
+
+}
+#left{ position: absolute;
+    width: 50%;
+    padding-top: 80px;
+    height: 100%;
+    padding-left: 80px;
+}
+#left h1{
+
+    font-family: "Anybody";
+    color: #204945;
+    font-size: 60px;
+
+    font-weight: 700;
+}
+#left h4{
+    font-family: "Rrd Hat Text";
+    font-size: 16px;
+    font-weight: 700;
+    color:#777E90;
+    ;
+}
+#right{
+    padding-top: 20px;
+    padding-left: 700px;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+#right img{
+     float: right;
+    width: 460px;
+    padding-top: 40px;
+}
+#left form input{
+     height: 50px; 
+     
+}
+ #left form input:nth-child(1){
+    border: none;
+    background-color: #E2F5EF;
+    border-radius: 5px;
+    padding-left: 30px;
+    
+    
+} 
+ #left form input:nth-child(2){ 
+    text-align: center;
+    width: 140px;
+    border-radius: 5px;
+    background-color: #3CBD96;
+    border: 2px solid  #3CBD96;
+    color: #ffffff;
+} 
+#Websitelogo{ padding-top: 40px;
+    margin-top: 50px;
+background-color: #E3F9E7;
+height: 50px;}
+#Websitelogo a{
+    height: 10px;
+    width: 100%;
+     padding-left:80px;
+          
+
+}
+#Websitelogo a img{ height: 30px;
+padding-bottom: 20px;}
+
+
+
+.starfour{ position: absolute;
+z-index: -1;
+}
+
+
+
+#sections2{   padding-top: 100px;
+    height: 50px;
+    width: 100%;
+display: flex;
+}
+
+#left2{  
+padding-left: 300px;
+height: 100px;
+width: 100%;
+font-family: "Anybody";
+font-weight: 700;
+font-size: 40x;
+width: 50%;
+color: #204945;
+
+}
+#right2{ height: 100px;
+    font-family: "Red hat Text";
+    font-family: "Anybody";
+    width: 100%;
+
+    color: #777E90;
+} 
+#table1{  height: 300px;
+    width: 100%;
+    
+    margin-top: 150px;
+
+    
+}    
+
+
+ 
+#table1 tr td{
+    padding-top: 10px;
+    text-align: center;
+    padding-left:100px;
+    align-items: center;
+    width: 200px;
+    font-family: "Anybody";
+    color: #204945;
+    border-right: dotted #9757D766 1.993334px ;
+    border-spacing: 1px
+}
+ .Steps{ 
+    font-family: "Poppins";
+    color:#777E90 ;
+    font-size: 15px;
+
+ }
+ .works{
+    font-family: "anybody";
+    size: 20px;
+    font-weight: 700;
+ }
+ .contant{ 
+    color: #777E90;
+    font-weight: 400;
+    font-size: 12px;
+
+ }
+
+ 
+ #sections3{ 
+    padding-top: 100px;
+height: 50%;
+width: 100%;}
+
+ #Left3{ height: 100px;float: left;
+    position: absolute;
+    width: 50%;
+ 
+ }
+ #Left3 img{ height: 250px;
+padding-left: 100px;}
+
+
+.moo{ position: absolute;
+height: 500px;
+padding-left: 550px; 
+}
+ #right3{ float:right;
+
+     height: 100px;
+    width: 50%;
+     
+ } 
+ #right3 h2{ color:#204945;
+    font-weight: 700;
+    font-size: 30px;
+    font-weight: 700;
+font-family: "Anybody";}
+#right3 h4{ 
+    font-family: "Red hat Text";
+    width: 80%;
+    font-weight: 400;
+    font-size: 13px;
+    color: #777E90;}
+
+
+ .learnmore button{ border-radius: 5px;
+    border: 2px solid  #3CBD96;
+    background:#3CBD96;
+    color: rgb(255, 255, 255);
+    background-color:#3CBD96 ;
+    font-family: "Poppins";
+}
+#sections4{ 
+    margin-top: 30px;
+    display: inline-flex;
+    height: 30%;
+    padding-left: 100px;
+    width: 60%;}
+    
+ #right4{  font-size: 20px;
+         
+         height: 30%;
+        padding-left: 300px;
+        color: #204945; 
+        width: 100%;
+     
+     }
+    
+ #Left4{ 
+    font-size: 12px;
+    height: 30%;
+    width: 100%;
+     font-family: "Red hat Text";
+    font-family: "Anybody";
+     color: #777E90;
+     } 
+#table2{ 
+     height: 40%;
+     display: inline-block;
+    
+width: 100%;
+align-items: center;
+}
+
+#table2{padding-left: 70px;}
+#table2>table tr td{padding-left: 150px;
+font-size: 15px;}
+#table2>table tr>th{
+    font-size:
+     20px;color:#23262F; 
+    font-weight: 700;
+    
+    
+}
+#table2 tr th img{ padding-right: 20px;}
+#table2 tr td{ font-size: 12px; 
+color: #777E90;}
+#table2>table tr td th{ padding-right: 90px;}
+
+#sections5{  
+    background-color: #E3F9E7;
+padding-top: 30px;
+
+
+    height: 85%;
+    width: 100%;}
+    
+#Left5{
+    padding-left: 100px;  
+     
+    height: 100%;
+        width: 65%;
+     
+     }
+
+#Left5>h4{font-size: 17px;
+font-family:"Red Hat Display";
+font-weight: 400;
+color: #777E90;
+width: 50%}
+
+#Left5>h2{  font-size: 35px;
+font-family: "Anybody";
+color:#204945;
+font-weight: 700;}
+
+
+#Left5 img{height: 370px;
+width: 340px;}
+    
+ #right5{ 
+    
+    float: right;
+    height: 100%;
+    width: 50%;
+     
+     } 
+
+
+#right5 form{ 
+       position: absolute;
+        width:43%;
+        height: 80%;
+        border-radius: 50px;
+        border: 2px solid #fff;
+        background-color:#ffff;}
+
+#right5 form input{ width: 30%;
+    font-family: "Red Hat Display";
+    font-weight: 400;
+    color:#777E90 ;
+    border: none;
+    margin-top: 10px;
+    margin-left: 40px;}
+#right5 form h4{ padding-left: 70px;
+    font-size: 20px;
+}
+
+#right5 form img{  
+    position: absolute;   
+    height: 40px;
+    padding-bottom: 30px;
+}
+
+.hee{ 
+    padding-left:40px;
+    margin-top: 45px;}
+
+
+
+#Calculate>input{border-radius: 8px;
+    height: 35px;
+    border: 2px solid  #3CBD96;
+    background:#3CBD96;
+     
+    }
+
+
+
+#sections6{ 
+            padding-top: 150px;
+            height: 60%;
+
+            width: 100%;}
+            
+#right6{  font-size: 20px;
+            
+                 
+                 height: 60%;float: right;
+                
+                color: #204945; 
+                width: 40%;
+             
+             }
+
+#right6 img{ height: 400px;
+                width: 600px;
+            }
+            
+#Left6{ padding-left: 40px;
+    padding-top: 40px;
+     font-size: 12px;
+            height: 60%;
+            width: 60%;
+             font-family: "Red hat Text";
+            font-family: "Anybody";
+             color: #777E90;
+             } 
+
+#foo{position: absolute;
+    padding-top: 30px;
+    z-index: -1;
+padding-left: 20px;}
+
+
+#ttt{position: absolute;
+z-index: -1;
+height: 350px;
+padding-top: 100px;
+}
+
+#Left6 h2{color: #204945;
+        font-size: 30px;}  
+        
+#Left6 h3 { width: 75%;}
+        
+        
+#clint{ width: 100%; padding-top: 100px;
+height: 30%; text-align: center;}
+#clint h2{color: #204945; font-size: 30px;
+    font-weight: 700;
+font-family: "Anybody";}
+#clint h4{ color: #777E90;
+font-family: "Red Hat Display"; }
+
+#sections7{ height: 60%; background-color:#E3F9E7;
+width: 100%;}
+
+#right7{ height: 100%;width: 70%; font-size: 10px; text-align: center; 
+float: right;}
+#arow{ height: 20px;
+padding-left: 60px;
+padding-top: 20px;}
+
+
+#right7 h3{ width: 70%; color: #777E90;
+padding-left: 150px;}
+#right7 h4{
+ color: #204945;
+ padding-top: 10px;
+
+    font-size: 17px;
+}
+
+#right7 img{ height: 60px;
+padding-top: 25px;}
+#right7 .starss{height: 30px;}
+#Left7{height: 100%;  background-color: #ffffff;
+width:30% ;}
+   
+
+.aaa{ display: flex;
+padding-top:30px;
+padding-left: 70px;
+background-image: url(Rectangle000.png);
+background-position: 100px;
+}
+
+.aaa>h6{
+    margin-top: 20px;
+    padding-left: 30px;
+    font-size:15px;
+}
+ 
+.aaa img{ height: 60px;}
+
+
+
+
+.aba{display: flex;
+    padding-top:30px;
+    padding-left: 70px;
+    background-image: url(Rectangle21.png ) ;
+    background-position: 20px;
+
+}
+.aba>h6{
+    margin-top: 20px;
+    padding-left: 30px;
+    font-size:15px;
+}
+.aba img{ height: 60px;}
+.aca{display: flex;
+    padding-top:30px;
+    padding-left: 70px;
+    background-image: url(Rectangle21.png );}
+ .aca>h6{
+        margin-top: 20px;
+        padding-left: 30px;
+        font-size:15px;
+    }
+.aca img{ height: 60px;}
+footer table{ width: 90%; padding-top: 100px;
+    color: #777E90;
+height: 50%;}
+
+
+#sections8{ 
+    width: 90%;
+    height: 5%;
+padding-left: 70px;   
+padding-top: 5px; 
+}
+#left8{height: 10%; width: 50%; position: absolute;  font-family: "Red Hat Text ";
+    font-size: 15px;
+    color: #777E90;
+    
+}
+
+#right8{height: 10%;width: 50%;float: right; 
+    
+
+}
+
+
+body footer{width: 100%;
+position: absolute;}
+
+#right8 img{ 
+    padding-top: 20px;
+    float: right; 
+
+}
+
+hr{ width:90%;
+     border-style: dashed ;
+     border-color: #777E9080;
+     border-spacing: 3px;
+}
+
+.ggg{ text-align: left;
+    height: 10px;
+ font-size: 10px;
+width: 300px;
+padding-left: 80px;}
+
+.lll{color: #204945;height: 10px;
+    padding-left: 1px;
+    
+width:100px ;}
+.ppp{ width: 50px;
+font-size: 10px;height: 30px;
+text-align: center;}
+.sss{ width: 50px; border: dashed; 
+    height: 30px;
+    font-size: 10px;
+    text-align: center;}
+
+
+.kkk{ width: 50px;
+    height: 30px;
+    font-size: 10px; 
+    text-align: center;}
+
+
+.mmm{ width: 50px; 
+    height: 50px;
+    font-size: 10px;
+    text-align: center;}
+
+
+.vvv{text-align: left;}
+ 
+.Subscribe button{border-radius: 6px;
+    width: 120px;
+    height: 30px;
+    border: 2px solid  #3CBD96;
+    background:#3CBD96;
+    color: rgb(255, 255, 255);
+    background-color:#3CBD96 ;
+    font-family: "Poppins";}
+
+
+
+
+#lasts{
+    position: absolute;
+    z-index: -1;
+    height: 200px;
+    padding-top: 300px;
+}
